@@ -3,20 +3,34 @@ Juan Sebastian Martinez Garcia
 
 En el siguiente reto se mostrara el algoritmo para llegar a los numeros primos hasta un numero n determinado de 3 maneras: Lista de pasos, Pseudocodigo y Diagrama de flujo
 
-Lista de pasos
+
+
+Lista de pasos-----
+
+
 
 1.Elegir un numero n
+
 2.Revisa cada numero n iniciando desde 2 (i)
+
 3.Revisa si un numero menor a i puede dividirlo exactamente
+
 -si encuentras un numero que lo divida sin dejar residuo NO ES PRIMO
+
 -si no encuentras un numero que lo divida sin dejar residuo ES PRIMO
+
 4..sumale 1 al numero i 
+
 -si es menor o igual a n vuelve al paso 2 y opera
 -si es mayor a n FIN
 
-Pseudocodigo
 
-Inicio
+
+Pseudocodigo-----
+
+
+
+    Inicio
     Leer n
     i ← 2
     Mientras i ≤ n hacer
@@ -32,9 +46,15 @@ Inicio
             Imprimir i
         FinSi
         i ← i + 1
-    FinMientras
-Fin
+		FinMientras
+	Fin
 
-Diagrama de flujo
-Archivo Diagrama_De_Flujo_RETO3
 
+
+Diagrama de flujo-----
+
+
+
+(Archivo Diagrama_De_Flujo_RETO3)
+
+![Imagen de WhatsApp 2025-04-27 a las 17 54 56_f9836c17](https://github.com/user-attachments/assets/3787771d-314f-46a3-8d95-40dc1f8f87f9)
